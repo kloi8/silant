@@ -39,7 +39,7 @@ class Manager(models.Model):
 
 #СПРАВОЧНИКИ
 
-# #Класс Модель техники
+#Класс Модель техники
 class EquipmentModel(models.Model):
     title = models.CharField('Название', max_length=64, unique=True)
     description = models.CharField('Описание', max_length=1024)
