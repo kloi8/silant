@@ -43,7 +43,7 @@ class ReclamationPermissions(permissions.BasePermission):
                 return request.method in ['GET', 'POST']        
             return False
 
-#Разрешения для списков
+#Разрешения для списков (чтобы редактировали менеджеры)
 class ListPermissions(permissions.BasePermission):
     def has_permission(self, request, view):
         user = request.user
