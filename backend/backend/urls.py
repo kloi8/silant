@@ -4,5 +4,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('silantapp.urls')),  # подключаем маршруты из вашего приложения
+    path('api/', include('silantapp.urls')),  # подключаем маршруты из приложения
 ]
