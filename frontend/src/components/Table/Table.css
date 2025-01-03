@@ -1,0 +1,35 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'PT Astra Sans', sans-serif;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #EBE6D6;
+    background-color: #163E6C;
+    color: white;
+  }
+  
+  th {
+    background-color: #163E6C;
+    color: #EBE6D6;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .header, .footer, .tabs, .table {
+      font-size: 14px;
+    }
+  }
+
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }

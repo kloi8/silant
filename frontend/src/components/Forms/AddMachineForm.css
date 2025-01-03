@@ -1,0 +1,16 @@
+.data-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #EBE6D6;
+    border: 1px solid #163E6C;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
