@@ -19,11 +19,11 @@ class Serviсe(models.Model):
     serviсeUser = models.OneToOneField(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f'{self.serviceUser}'
-    
+        return f'{self.serviсeUser}'
+
     class Meta:
-        verbose_name = 'Сервисная компания'
-        verbose_name_plural = 'Сервисные компании'
+        verbose_name = 'Сервисная компания(пользователь)'
+        verbose_name_plural = 'Сервисные компании(пользователи)'
 
 #Менеджер 
 class Manager(models.Model):

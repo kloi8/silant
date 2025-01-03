@@ -1,0 +1,50 @@
+.main-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .main {
+    padding: 20px;
+    background-color: #EBE6D6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #163E6C;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #163E6C;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #163E6C;
+    color: #EBE6D6;
+  }
+  
+  .user-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }

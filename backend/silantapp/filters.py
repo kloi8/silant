@@ -14,7 +14,7 @@ class MaintenanceFilter(filters.FilterSet):
         fields = ['maintType', 'machine', 'serviceCompany']
 
 
-class ReclamationFilter(filter.FilterSet):
+class ReclamationFilter(filters.FilterSet):
     class Meta:
         model = Reclamation
         fields = ['refusalPoint', 'recoveryMethod', 'serviceCompany']

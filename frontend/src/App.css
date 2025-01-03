@@ -1,0 +1,29 @@
+body {
+  font-family: 'PT Astra Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EBE6D6;
+  color: #163E6C;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2 {
+  color: #D20A11;
+}
+
+button {
+  background-color: #163E6C;
+  color: #EBE6D6;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #D20A11;
+}

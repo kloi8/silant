@@ -1,0 +1,22 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #163E6C;
+    color: #EBE6D6;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-family: 'PT Astra Sans', sans-serif;
+    margin: 0 5px;
+  }
+  
+  .tab.active {
+    background-color: #D20A11;
+    color: white;
+  }
